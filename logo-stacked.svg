@@ -1,0 +1,19 @@
+<svg width="220" height="200" viewBox="0 0 220 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="220" height="200" fill="#0A0A0A"/>
+
+  <!-- Large centred mark -->
+  <g transform="translate(70, 14)">
+    <polygon points="40,4 74,23 74,61 40,80 6,61 6,23" stroke="#D72B2B" stroke-width="2.5" fill="none"/>
+    <polygon points="40,15 63,28 63,56 40,69 17,56 17,28" stroke="white" stroke-width="1" fill="none" opacity="0.15"/>
+    <path d="M22 42 L30 36 L35 42 L40 36 L45 42 L50 36 L58 42" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <circle cx="40" cy="42" r="5" fill="#D72B2B"/>
+    <circle cx="40" cy="42" r="2.2" fill="white"/>
+  </g>
+
+  <!-- Wordmark stacked -->
+  <text x="110" y="128" font-family="'Barlow Condensed', 'Arial Narrow', Arial, sans-serif" font-weight="900" font-size="44" fill="#F0EFE9" letter-spacing="1" text-anchor="middle">JITS</text>
+  <text x="110" y="163" font-family="'Barlow Condensed', 'Arial Narrow', Arial, sans-serif" font-weight="900" font-size="44" fill="#D72B2B" letter-spacing="1" text-anchor="middle">NEAR ME</text>
+
+  <!-- Tagline -->
+  <text x="110" y="186" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="10" fill="#444" letter-spacing="2" text-anchor="middle">ROLL ANYWHERE. ANYTIME.</text>
+</svg>

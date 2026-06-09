@@ -1,0 +1,18 @@
+<svg width="420" height="100" viewBox="0 0 420 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="420" height="100" fill="#F0EFE9"/>
+
+  <!-- Hex mark -->
+  <g transform="translate(14, 12)">
+    <polygon points="38,4 68,21 68,55 38,72 8,55 8,21" stroke="#D72B2B" stroke-width="2.5" fill="none"/>
+    <polygon points="38,14 58,25.5 58,48.5 38,60 18,48.5 18,25.5" stroke="#0A0A0A" stroke-width="1" fill="none" opacity="0.12"/>
+    <path d="M22 38 L29 33 L33 38 L38 33 L42 38 L46 33 L54 38" stroke="#0A0A0A" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <circle cx="38" cy="38" r="4" fill="#D72B2B"/>
+    <circle cx="38" cy="38" r="1.8" fill="white"/>
+  </g>
+
+  <text x="100" y="58" font-family="'Barlow Condensed', 'Arial Narrow', Arial, sans-serif" font-weight="900" font-size="52" fill="#0A0A0A" letter-spacing="1">JITS</text>
+  <text x="196" y="58" font-family="'Barlow Condensed', 'Arial Narrow', Arial, sans-serif" font-weight="900" font-size="52" fill="#D72B2B" letter-spacing="1"> NEAR</text>
+  <text x="340" y="58" font-family="'Barlow Condensed', 'Arial Narrow', Arial, sans-serif" font-weight="900" font-size="52" fill="#0A0A0A" letter-spacing="1"> ME</text>
+
+  <text x="101" y="80" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="13" fill="#999" letter-spacing="2.5">ROLL ANYWHERE. ANYTIME.</text>
+</svg>

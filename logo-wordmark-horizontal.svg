@@ -1,0 +1,14 @@
+<svg width="360" height="52" viewBox="0 0 360 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Mark compact -->
+  <g transform="translate(0, 2)">
+    <polygon points="24,2 44,13 44,35 24,46 4,35 4,13" stroke="#D72B2B" stroke-width="1.8" fill="none"/>
+    <polygon points="24,9 38,17 38,31 24,39 10,31 10,17" stroke="white" stroke-width="0.7" fill="none" opacity="0.18"/>
+    <path d="M12 24 L17 21 L20 24 L24 21 L28 24 L31 21 L36 24" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <circle cx="24" cy="24" r="2.8" fill="#D72B2B"/>
+    <circle cx="24" cy="24" r="1.2" fill="white"/>
+  </g>
+
+  <text x="56" y="36" font-family="'Barlow Condensed', 'Arial Narrow', Arial, sans-serif" font-weight="900" font-size="38" fill="#F0EFE9" letter-spacing="0.5">JITS</text>
+  <text x="129" y="36" font-family="'Barlow Condensed', 'Arial Narrow', Arial, sans-serif" font-weight="900" font-size="38" fill="#D72B2B" letter-spacing="0.5"> NEAR</text>
+  <text x="255" y="36" font-family="'Barlow Condensed', 'Arial Narrow', Arial, sans-serif" font-weight="900" font-size="38" fill="#F0EFE9" letter-spacing="0.5"> ME</text>
+</svg>

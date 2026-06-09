@@ -1,0 +1,15 @@
+<svg width="420" height="100" viewBox="0 0 420 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="420" height="100" fill="#D72B2B"/>
+
+  <g transform="translate(14, 12)">
+    <polygon points="38,4 68,21 68,55 38,72 8,55 8,21" stroke="white" stroke-width="2.5" fill="none" opacity="0.9"/>
+    <polygon points="38,14 58,25.5 58,48.5 38,60 18,48.5 18,25.5" stroke="white" stroke-width="1" fill="none" opacity="0.2"/>
+    <path d="M22 38 L29 33 L33 38 L38 33 L42 38 L46 33 L54 38" stroke="white" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <circle cx="38" cy="38" r="4" fill="rgba(0,0,0,0.3)"/>
+    <circle cx="38" cy="38" r="1.8" fill="white"/>
+  </g>
+
+  <text x="100" y="58" font-family="'Barlow Condensed', 'Arial Narrow', Arial, sans-serif" font-weight="900" font-size="52" fill="white" letter-spacing="1">JITS NEAR ME</text>
+
+  <text x="101" y="80" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="13" fill="rgba(255,255,255,0.5)" letter-spacing="2.5">ROLL ANYWHERE. ANYTIME.</text>
+</svg>
