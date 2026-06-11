@@ -1,0 +1,173 @@
+/* ============================================================
+   JITS NEAR ME — Brand Tokens v1.0
+   Concept C: Hex + Belt Mark
+   ============================================================ */
+
+:root {
+
+  /* ── COLOUR ── */
+  --jnm-black:         #0A0A0A;   /* App background / canvas        */
+  --jnm-slate:         #1A1F2E;   /* Cards / elevated surfaces       */
+  --jnm-slate-mid:     #252D3E;   /* Secondary cards / input bg      */
+  --jnm-slate-light:   #3A4459;   /* Borders / dividers on slate     */
+  --jnm-red:           #D72B2B;   /* PRIMARY action / "NEAR" / mark  */
+  --jnm-red-dark:      #A81E1E;   /* Red hover / pressed state       */
+  --jnm-red-muted:     #3A1010;   /* Red bg for badges               */
+  --jnm-cyan:          #00D4FF;   /* AI features ONLY                */
+  --jnm-cyan-muted:    #004D5C;   /* AI panel background             */
+  --jnm-white:         #F0EFE9;   /* Primary text on dark            */
+  --jnm-gray:          #8A8F9E;   /* Muted text / labels             */
+  --jnm-gray-light:    #C8CBDA;   /* Body text on dark               */
+
+  /* ── TYPOGRAPHY ── */
+  --jnm-font-display:  'Barlow Condensed', 'Arial Narrow', Arial, sans-serif;
+  --jnm-font-body:     'Space Grotesk', system-ui, -apple-system, sans-serif;
+  --jnm-font-mono:     'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+
+  /* ── TYPE SCALE ── */
+  --jnm-text-hero:        clamp(52px, 8vw, 90px);  /* Barlow Black, UPPER */
+  --jnm-text-h1:          42px;                     /* Barlow Black, UPPER */
+  --jnm-text-h2:          28px;                     /* Barlow Bold, UPPER  */
+  --jnm-text-h3:          20px;                     /* Barlow Bold, UPPER  */
+  --jnm-text-subheading:  18px;                     /* Barlow Reg, UPPER, tracked */
+  --jnm-text-body:        15px;                     /* Space Grotesk 400   */
+  --jnm-text-ui:          13px;                     /* Space Grotesk 500   */
+  --jnm-text-label:       11px;                     /* JetBrains Mono, UPPER, tracked */
+
+  /* ── LETTER SPACING ── */
+  --jnm-ls-display:    -0.02em;
+  --jnm-ls-heading:     0.02em;
+  --jnm-ls-subheading:  0.08em;
+  --jnm-ls-label:       0.14em;
+
+  /* ── BORDER RADIUS ── */
+  --jnm-radius-sm:      6px;
+  --jnm-radius-md:      10px;
+  --jnm-radius-lg:      14px;
+  --jnm-radius-xl:      20px;
+  --jnm-radius-pill:    999px;
+
+  /* ── SPACING (8pt grid) ── */
+  --jnm-space-1:   8px;
+  --jnm-space-2:   16px;
+  --jnm-space-3:   24px;
+  --jnm-space-4:   32px;
+  --jnm-space-6:   48px;
+  --jnm-space-8:   64px;
+  --jnm-space-12:  96px;
+
+  /* ── MOTION ── */
+  --jnm-ease-snap:    100ms ease-out;
+  --jnm-ease-settle:  240ms cubic-bezier(0.16, 1, 0.3, 1);
+  --jnm-ease-pulse:   1400ms ease-in-out infinite;
+
+  /* ── BORDERS ── */
+  --jnm-border-subtle:   1px solid #1E2028;
+  --jnm-border-card:     1px solid #3A4459;
+  --jnm-border-red:      1px solid var(--jnm-red);
+  --jnm-border-cyan:     1px solid rgba(0, 212, 255, 0.2);
+}
+
+/* ── COMPONENT TOKENS ── */
+
+/* Primary Button */
+.jnm-btn-primary {
+  font-family:     var(--jnm-font-display);
+  font-size:       16px;
+  font-weight:     700;
+  letter-spacing:  0.08em;
+  text-transform:  uppercase;
+  background:      var(--jnm-red);
+  color:           #ffffff;
+  border:          none;
+  padding:         12px 28px;
+  border-radius:   var(--jnm-radius-sm);
+  cursor:          pointer;
+  transition:      background var(--jnm-ease-snap);
+}
+.jnm-btn-primary:hover  { background: var(--jnm-red-dark); }
+.jnm-btn-primary:active { transform: scale(0.98); }
+
+/* Secondary Button */
+.jnm-btn-secondary {
+  font-family:     var(--jnm-font-display);
+  font-size:       16px;
+  font-weight:     700;
+  letter-spacing:  0.08em;
+  text-transform:  uppercase;
+  background:      transparent;
+  color:           var(--jnm-white);
+  border:          1px solid var(--jnm-slate-light);
+  padding:         12px 28px;
+  border-radius:   var(--jnm-radius-sm);
+  cursor:          pointer;
+  transition:      border-color var(--jnm-ease-snap), color var(--jnm-ease-snap);
+}
+.jnm-btn-secondary:hover { border-color: var(--jnm-white); }
+
+/* AI Feature Button */
+.jnm-btn-ai {
+  font-family:     var(--jnm-font-body);
+  font-size:       13px;
+  font-weight:     500;
+  background:      transparent;
+  color:           var(--jnm-cyan);
+  border:          1px solid rgba(0, 212, 255, 0.25);
+  padding:         8px 18px;
+  border-radius:   var(--jnm-radius-pill);
+  cursor:          pointer;
+}
+
+/* Gym Card */
+.jnm-gym-card {
+  background:      var(--jnm-slate-mid);
+  border:          1px solid var(--jnm-slate-light);
+  border-radius:   var(--jnm-radius-lg);
+  padding:         16px;
+}
+
+/* AI Panel */
+.jnm-ai-panel {
+  background:      var(--jnm-cyan-muted);
+  border:          1px solid rgba(0, 212, 255, 0.15);
+  border-radius:   var(--jnm-radius-md);
+  padding:         16px;
+}
+
+/* Distance / Data label */
+.jnm-data-label {
+  font-family:     var(--jnm-font-mono);
+  font-size:       var(--jnm-text-label);
+  letter-spacing:  var(--jnm-ls-label);
+  text-transform:  uppercase;
+  color:           var(--jnm-cyan);
+}
+
+/* Open Mat Badge */
+.jnm-badge-open {
+  font-family:     var(--jnm-font-mono);
+  font-size:       10px;
+  letter-spacing:  0.1em;
+  text-transform:  uppercase;
+  background:      var(--jnm-red-muted);
+  color:           var(--jnm-red);
+  padding:         3px 10px;
+  border-radius:   var(--jnm-radius-pill);
+}
+
+/* AI Badge */
+.jnm-badge-ai {
+  font-family:     var(--jnm-font-mono);
+  font-size:       10px;
+  letter-spacing:  0.1em;
+  text-transform:  uppercase;
+  background:      var(--jnm-cyan-muted);
+  color:           var(--jnm-cyan);
+  padding:         3px 10px;
+  border-radius:   var(--jnm-radius-pill);
+}
+
+/* ── GOOGLE FONTS IMPORT ── */
+/*
+  @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;900&family=Space+Grotesk:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+*/
